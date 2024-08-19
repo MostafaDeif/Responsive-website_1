@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    text-decoration: none;
+}
+
+.yellow_blue_divs{
+    margin-top: 90px;
+    display: flex;
+    max-width: 100%;
+    gap: 18px;
+}
+
+.card_aboutUs{
+    width: 529px;
+    max-width: 90%;
+    height: 493px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 50px;
+
+    img{
+        width: 50px;
+    }
+
+    h2{
+        width: 90%;
+        color: #FFFFFF;
+        font-family: "IBM Plex Sans Arabic", sans-serif;
+        font-size: 47px;
+        font-weight: 700;
+        line-height: 73.18px;
+        text-align: right;
+    }
+
+    h4{
+        width: 90%;
+        color: #FFFFFF;
+        font-family: "IBM Plex Sans Arabic", sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 40.48px;
+        text-align: right;
+    }   
+
+    p{
+        width: 90%;
+        font-family: "IBM Plex Sans Arabic", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28.03px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 767px){
+    .yellow_blue_divs{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card_aboutUs{
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+}
+
+.group_kids{
+    width: 1076px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .group_kids_text{
+        display: flex;
+        justify-content: space-between;
+        /* gap: 20px; */
+        h2{
+            font-family: "IBM Plex Sans Arabic", sans-serif;
+            font-size: 65px;
+            font-weight: 700;
+            line-height: 101.21px;
+            text-align: right;
+            width: 526px;
+            max-width: 90%;
+        }
+        p{
+            font-family: "IBM Plex Sans Arabic", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28.03px;
+            text-align: right;
+            width: 489px;
+            max-width: 90%;
+        }
+    }
+}
+
+@media (min-width: 0px) and (max-width: 767px){
+    .group_kids{
+        .group_kids_text{
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+    }
+
+    .top{
+        gap: 80px;
+    }
+}

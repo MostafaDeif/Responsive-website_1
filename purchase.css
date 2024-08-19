@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    text-decoration: none;
+    list-style: none;
+    /* 
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    */
+}
+
+.purchase{
+    margin-top: 44px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 44px;
+}
+
+.main_purchase{
+    display: flex;
+    
+    img{
+        width: 580px;
+        max-width: 100%;
+        object-fit: cover;
+        border-radius: 0px 10px 10px 0px;
+    }
+}
+
+.center_left_purchase{
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1073px;
+    max-width: 100%;
+    height: 533px;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.left_purchase{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        label{
+            color: #12376B;
+            font-family: IBM Plex Sans Arabic;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: right;
+            font-family: "IBM Plex Sans Arabic", sans-serif;
+            display: flex;
+            gap: 8px;
+
+            input{
+                width: 22px;
+                height: 22px;
+            }
+        }
+    }
+}
+
+.price{
+    display: flex;
+    gap: 22px;
+    .price_p{
+        color: #818181;
+        font-family: "IBM Plex Sans Arabic", sans-serif;
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 40.5px;
+        text-align: right;
+
+    }
+    .realprice{
+        font-family: "IBM Plex Sans Arabic", sans-serif;
+        font-size: 27px;
+        font-weight: 700;
+        line-height: 40.5px;
+        text-align: right;
+    }
+}
+
+.joinUs-btn{
+    background-color: #F04A26;
+    width: 100%;
+    height: 85px;
+    border-radius: 137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50.4px;
+    text-align: right;
+    color: #FFFFFF;
+
+}
+
+.joinUs-btn:hover{
+    background-color: #12376B;
+    transition: 0.4s;
+}
+
+@media (min-width: 0px) and (max-width: 767px){
+    .main_purchase{
+        flex-wrap: wrap;
+        width: 90%;
+        img{
+            border-radius: 10px 10px 0px 0px;
+        }
+    }
+
+    .center_left_purchase{
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .purchase{
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .joinUs-btn{
+        max-width: 90%;
+    }
+}

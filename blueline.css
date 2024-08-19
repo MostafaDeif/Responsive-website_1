@@ -1,0 +1,290 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    text-decoration: none;
+}
+.ADS {
+    width: 100%;
+    padding-block: 12px;
+    background-color: #12376b;
+    margin-bottom: 2.875rem;
+}
+
+.ADS h4 {
+    font-family: Arabic UI Display;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20.97px;
+    color: #ffffff;
+}
+
+.ADS h4 span {
+    font-weight: 700;
+}
+.color286CD5{
+    color: #286CD5;
+}
+
+.color12376B{
+    color: #12376B;
+}
+
+.colorF4A905{
+    color: #F4A905;
+}
+
+.colorD12215{
+    color: #D12215;
+}
+
+.colorF04B25{
+    color: #F04B25;
+}
+
+.colorF5F5F5{
+    color: #F5F5F5;
+}
+
+.color686868{
+    color: #686868;
+
+}
+
+.colorF5A805{
+    color: #F5A805;
+
+}
+
+.backgroundF5A805{
+    background-color: #F5A805;
+}
+
+
+.background12376B40{
+    background-color: #12376B40;
+}
+
+.backgroundF04B2540{
+    background-color: #F04B2540;
+}
+
+.background286CD540{
+    background: #286CD540;
+}
+
+.backgroundF4A90540{
+    background: #F4A90540;
+}
+
+.blue_line{
+    background-color: #12376B;
+    width: 100%;
+    height: 44px;
+
+}
+/* 
+.container_blue_line{
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_blue_line img{
+    width: 21px;
+    height: 21px;
+    margin: 0 5px;
+}
+.container_blue_line p{
+    width: 100%; 
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20.97px;
+    text-align: left;    
+    font-family: "Rubik", sans-serif;
+    color: white;
+    text-align: center;
+    display: inline;
+}
+
+.container_blue_line span{
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.97px;
+    text-align: left;
+} */
+
+.nav{
+    direction: ltr;
+    width: 1076px;
+    max-width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav ul{
+    width: 403px;
+    /* height: 16px; */
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.login a{
+    color: #F04B25;
+}
+
+.nav .login .btn{
+    padding: 14px 45px;
+    background-color: #F04B25;
+    border-radius: 33px;
+    color: #FFFFFF;
+    font-family: Arabic UI Display;
+    font-size: 15.25px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+}
+
+.nav .login .btn:hover{
+    background-color: #12376B;
+}
+
+.no{
+    font-weight: 700;
+}
+
+.no:hover{
+    color: #12376B;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #12376B;
+    font-weight: 700;
+}
+
+.nav ul li a:hover{
+    color: #F04A26;
+}
+
+.nav img{
+    width: 187px;
+}
+.checkbtn{
+    font-size: 40px;
+    color: #12376B;
+    line-height: 45px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media (min-width: 0px) and (max-width: 767px){
+
+/*     
+    .blue_line{
+        background-color: #12376B;
+        width: 100%;
+    } */
+
+    .nav{
+        width: 90%;
+        max-width: 90%;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: space-between;
+    }
+
+    .checkbtn{
+        display: block;
+    }
+
+    .login{
+        display: none;
+        
+    }
+
+    .nav img{
+        width: 145px;
+    }
+
+    .nav ul{
+        display: none;
+    }
+
+    .container_blue_line p{
+        /* width: 100%; */
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 20.97px;
+        text-align: left;    
+        font-family: "Rubik", sans-serif;
+        color: white;
+        text-align: center;
+        display: inline;
+        span{
+            font-size: 16px;
+        }
+    }
+}
+
+
+@media (min-width: 767px) and (max-width: 992px){
+    
+    .blue_line{
+        background-color: #12376B;
+        width: 100%;
+    }
+
+    .nav{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+        
+    .login{
+        display: block;
+    }
+
+    .nav ul{
+        display: none;
+    }
+
+    .checkbtn{
+        display: block;
+    }
+
+    .nav .login .btn{
+        padding: 10px 35px;
+    }
+    .login .no{
+        display: none;
+    }
+}
