@@ -1,0 +1,13 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.blank_box{
+    width: 100%;
+    height: 833px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+}
